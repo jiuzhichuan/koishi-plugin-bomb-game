@@ -75,7 +75,7 @@ ctx.command('炸弹菜单').subcommand('排雷')
     const {userId} = session;
     const read = await ctx.database.get('Bombs', { userId });
     if( Mine_clearance === undefined ){
-    return `══排雷触发══&#10;状态：失败\n操作者：【${h.at(userId)}】&#10; 原因：格式错误\n正确格式：排雷触发 触发词\nTips：这是设置埋炸弹的触发词`
+    return `══排雷触发══&#10;状态：失败\n操作者：【${h.at(userId)}】&#10; 原因：格式错误\n正确格式：排雷触发 触发词\nTips：这是排除炸弹的触发词`
 }else if( Mine_clearance === '排雷' ){
     return `══排雷触发══&#10;状态：失败\n操作者：【${h.at(userId)}】&#10; 原因：不能和原触发词一样`
 }
