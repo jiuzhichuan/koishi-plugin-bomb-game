@@ -2,17 +2,26 @@
 
 [![npm](https://img.shields.io/npm/v/koishi-plugin-bomb-game?style=flat-square)](https://www.npmjs.com/package/koishi-plugin-bomb-game)
 
-# ✨炸弹小游戏，需要搭配QQ群管理或群主使用✨
+# 炸弹专家
+## ✨炸弹小游戏，需要搭配QQ群管理或群主使用✨
 ## 目前指令： 
 领取炸弹 \
-埋炸弹 \
+埋雷 \
 排雷 \
+抢雷 \
 排雷触发 \
 炸弹菜单 \
-炸弹触发
-### 后续更新
-雷人榜
-> 就是查看今日谁埋雷偷袭的人最多，排名第一，第二，获得【雷王】和【雷王子】群聊头衔 \
+炸弹触发 \
+雷人榜 
 
-抢雷
-> 雷不够用了，就和其他人“借”点吧!(手动狗头)
+### 问题
+埋雷成功是不会触发回复的
+排雷失败也是不会触发回复的
+NTQQ/QQNT可能会出现未知错误这种情况（我忘记是叫什么了
+这种情况请使用go—cqhttpp+onebot
+详细看文档
+内置gocq+内置/外置qsign教程（推荐）：
+https://forum.koishi.xyz/t/topic/4789
+
+外置gocq+外置qsign教程（进阶）：
+【外置的koishi-qsign-gocqhttp接入教程-哔哩哔哩】 https://b23.tv/o9lz7Wo

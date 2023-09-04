@@ -1,6 +1,7 @@
 import { Context, Schema } from 'koishi';
 export declare const name = "bomb-game";
 export interface Config {
+    主人QQ: string;
 }
 export declare const Config: Schema<Config>;
 declare module 'koishi' {
@@ -16,5 +17,6 @@ export interface Bomb_data {
     Bombs: number;
     Bombs_trigger: string;
     Clearance_trigger: string;
+    Bomb_kill: number;
 }
-export declare function apply(ctx: Context): void;
+export declare function apply(ctx: Context, config: Config): void;
