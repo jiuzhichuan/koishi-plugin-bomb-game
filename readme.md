@@ -15,13 +15,14 @@
 雷人榜 
 
 ### 问题
-埋雷成功是不会触发回复的
-排雷失败也是不会触发回复的
-NTQQ/QQNT可能会出现未知错误这种情况（我忘记是叫什么了
-这种情况请使用go—cqhttpp+onebot
-详细看文档
-内置gocq+内置/外置qsign教程（推荐）：
-https://forum.koishi.xyz/t/topic/4789
+埋雷成功是不会触发回复的 \
+排雷失败也是不会触发回复的 \
+NTQQ/QQNT可能会出现未知错误这种情况（我忘记是叫什么了 \
+这种情况请使用go—cqhttpp+onebot \
+详细看文档 \
+内置gocq+内置/外置qsign教程（推荐）： \
+https://forum.koishi.xyz/t/topic/4789 \
 
-外置gocq+外置qsign教程（进阶）：
-【外置的koishi-qsign-gocqhttp接入教程-哔哩哔哩】 https://b23.tv/o9lz7Wo
+外置gocq+外置qsign教程（进阶）： \
+【外置的koishi-qsign-gocqhttp接入教程-哔哩哔哩】 \
+https://b23.tv/o9lz7Wo
